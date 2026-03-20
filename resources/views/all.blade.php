@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, cum quidem, saepe deserunt labore sed placeat incidunt ad itaque sunt, earum sint! Vel, placeat voluptas!</p>
-
+    $foreach ($products as $product)
+    <p>this is a product: {{$product->name}}</p>
 </body>
 </html>
